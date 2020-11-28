@@ -18,7 +18,7 @@
     }
 
     Appwrite.setConfig({ endpoint, project, locale });
-    $active = true;
+    active.set(true);
   });
 </script>
 
